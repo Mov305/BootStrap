@@ -45,7 +45,7 @@
     <!-- Bio section -->
     <section id="section1" class="container-fluid text-white mx-auto">
       <h1 class="my-5">Abdelrhman Samy</h1>
-      <p class="text-light my-4">
+      <p class="text-light my-4 h5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
         reiciendis autem rem atque, ex vitae, sed odit labore non dicta eum
         veniam obcaecati repellat quidem repellendus tempore libero. Blanditiis,
@@ -545,11 +545,12 @@
     <div
       id="section3"
       class="container-fluid text-white"
-      style="padding: 100px 20px;"
+      style="padding: 150px 20px;"
     >
-      <form>
+      <h2 class="h2 text-center mb-5">Contact me</h2>
+      <form class="mt-5 d-flex flex-column">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <label for="exampleInputEmail1" class="form-label h4">Name</label>
           <input
             type="email"
             class="form-control"
@@ -560,15 +561,15 @@
             You can type your name or your email
           </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">massage</label>
-          <input class="form-control" />
-        </div>
+        <div class="form-floating text-black">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Please type your message</label>
+          </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1" />
           <label class="form-check-label" for="exampleCheck1">remeber me</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-lg btn-primary">Submit</button>
       </form>
     </div>
 
